@@ -56,7 +56,7 @@ export function About() {
             <img  
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               alt="Developer working on code in modern office setup"
-             src="https://images.unsplash.com/photo-1698919585695-546e4a31fc8f" />
+             src="Image/aboutMe.jpg" />
           </motion.div>
 
           <motion.div

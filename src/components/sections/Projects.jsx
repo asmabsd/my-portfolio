@@ -40,8 +40,8 @@ const projects = [
     githubUrl: 'https://github.com/YassineBM4/Jeagers'
   },
   {
-    title: 'DR.Khaled Professional Project',
-    description: 'Designed “Dr. Khaled”, a mobile app that helps users locate nearby medical facilities, make reservations, and directly contact doctors.',
+    title: 'Health Mobile App Professional Project',
+    description: 'Designed a health mobile app that helps users locate nearby medical facilities, make reservations, and directly contact doctors.',
     image: 'Image/DRkhaled.jpg',
     technologies: ['Figma'],
     liveUrl: '#',
