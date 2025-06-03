@@ -34,7 +34,7 @@ const projects = [
   {
     title: 'Swapcraze Academic Project',
     description: 'Built 3 bartering applications for web, desktop, and mobile for product and service exchanges.',
-    image: 'Image/bartering.png',
+    image: 'Image/bartering.jpg',
     technologies: ['Java For Desktop', 'Symfony For Web', 'PhpMyAdmin', 'Flutterflow For Mobile App'],
     liveUrl: '#',
     githubUrl: 'https://github.com/YassineBM4/Jeagers'
@@ -42,7 +42,7 @@ const projects = [
   {
     title: 'DR.Khaled Professional Project',
     description: 'Designed “Dr. Khaled”, a mobile app that helps users locate nearby medical facilities, make reservations, and directly contact doctors.',
-    image: 'Image/DRkhaled.png',
+    image: 'Image/DRkhaled.jpg',
     technologies: ['Figma'],
     liveUrl: '#',
     githubUrl: '#'
