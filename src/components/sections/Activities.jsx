@@ -10,7 +10,7 @@ const activities = [
     title: 'Tech Community Leader',
     organization: '1st place SIM vs SLIM Hackathon',
     period: '2024',
-    description: 'Organizing monthly meetups for 200+ developers, hosting workshops on modern web technologies, and fostering collaboration within the local tech community.',
+    description: 'We won 1st place with a mobile app that gives plants a voice using AI and sensors. The plant could express if it’s too hot, thirsty, or lacking oxygen. It created a unique, interactive care experience through real-time data and natural-language messages.',
     image: 'Image/hackathon.jpg'
   },
   {
@@ -18,7 +18,7 @@ const activities = [
     title: 'Hackathon Winner',
     organization: '3rd place Cement Mob Challenge Hackacthon',
     period: '2024',
-    description: 'Led a team of 4 developers to win first place in the sustainability category, creating an AI-powered waste management solution in 48 hours.',
+    description: 'We won 3rd place by building a mobile app for a cement company to monitor the national market. It tracked competitors and collected product data across the country. An interactive map gave the sales team real-time insights and a strategic edge.',
     image: 'Image/cement.jpeg'
   },
   {
@@ -26,7 +26,7 @@ const activities = [
     title: 'Training',
     organization: 'Blockchain training',
     period: '2024',
-    description: 'Contributing to open-source projects that benefit non-profit organizations, helping build digital solutions for social impact.',
+    description: 'This training explored blockchain fundamentals—NFTs, cryptocurrencies, and wallets. We did a live demo by creating and funding a crypto wallet. It offered hands-on insight into how blockchain transactions work.',
     image: 'Image/hedera.jpg'
   },
   {
@@ -34,7 +34,7 @@ const activities = [
     title: 'Training',
     organization: 'Innovation management training',
     period: '2025',
-    description: 'Mentoring aspiring developers aged 16-25, providing guidance on career paths, technical skills, and industry best practices.',
+    description: 'This training focused on fostering innovation through structured strategies. We learned how to turn ideas into impactful projects and manage innovation processes effectively.',
     image: 'Image/innovation.jpg'
   }
 ];
