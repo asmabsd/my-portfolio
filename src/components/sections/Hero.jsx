@@ -75,7 +75,7 @@ export function Hero() {
             transition={{ delay: 1, duration: 0.6 }}
             className="flex flex-wrap justify-center gap-4 mb-8"
           >
-            <a href="Resume/YassineBenMabrouk_Resume_Abroad.pdf" download>
+            <a href="Resume/YassineBenMabrouk_CV.pdf" download>
               <Button size="lg" className="gradient-bg hover:opacity-90 transition-opacity">
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
