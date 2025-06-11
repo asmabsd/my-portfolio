@@ -21,7 +21,7 @@ const projects = [
     image: 'Image/MSaware.jpg',
     technologies: ['NestJS', 'Flutter', 'Typescript', 'Python', 'MongoDB', 'Firebase'],
     liveUrl: 'https://www.linkedin.com/posts/yassine-ben-mabrouk-b7b071220_msaware-multiplesclerosis-ai-activity-7331102589335269376-6xf3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeJxE8Bg5LK8QxgknAhvn89_Q7f93pK3I4',
-    githubUrl: 'https://github.com/PIMPixelMinds'
+    githubUrl: '#'
   },
   {
     title: 'Abshore Internship Project',
