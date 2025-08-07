@@ -1,15 +1,14 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
 
+// Compétences techniques basées sur ton profil
 const technologies = [
-  'TypeScript', 'Javascript', 'Kotlin', 'Flutter',
-  'NestJS', 'NodeJS', 'Symfony', '.Net', 'SpringBoot', 'C#', 'Java', 'C++',
-  'MongoDB', 'PhpMyAdmin', 'Oracle','Git', 
-  'Android Studio', 'Vs Code', 'Visual Studio', 'Figma', 'IntelliJ IDEA', 'Postman', 'Docker'
+  'Spring Boot', 'Angular', 'Symfony 5', 'Java', 'PHP', 'MySQL', 'TypeScript', 'JavaScript',
+  'Docker', 'Kubernetes', 'Prometheus', 'Grafana', 'Ansible', 'OpenStack', 'Azure',
+  'Git', 'Linux', 'C', 'UML', 'HTML', 'CSS', 'Bootstrap', 'Postman'
 ];
 
 export function Skills() {
@@ -23,9 +22,9 @@ export function Skills() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">Skills & Technologies</h2>
+          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">Compétences & Technologies</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            A comprehensive overview of various technologies and frameworks and developing environments that i worked with.
+            Voici un aperçu des technologies, outils et environnements de développement que j’ai utilisés dans mes projets académiques et professionnels.
           </p>
         </motion.div>
 

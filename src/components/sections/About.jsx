@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
@@ -7,23 +6,23 @@ import { Code, Palette, Zap, Heart } from 'lucide-react';
 const features = [
   {
     icon: Code,
-    title: 'Clean Code',
-    description: 'Writing maintainable, scalable, and efficient code that stands the test of time.'
+    title: 'Code Propre',
+    description: 'Écrire un code maintenable, évolutif et performant pour des applications robustes.'
   },
   {
     icon: Palette,
-    title: 'Creative Design',
-    description: 'Crafting beautiful user interfaces that provide exceptional user experiences.'
+    title: 'Design Créatif',
+    description: 'Créer des interfaces modernes et intuitives pour une expérience utilisateur optimale.'
   },
   {
     icon: Zap,
-    title: 'Fast Performance',
-    description: 'Optimizing applications for speed and performance across all devices.'
+    title: 'Performance',
+    description: 'Optimiser les performances pour garantir rapidité et fluidité sur tous les appareils.'
   },
   {
     icon: Heart,
-    title: 'Passion Driven',
-    description: 'Bringing enthusiasm and dedication to every project I work on.'
+    title: 'Travail Passionné',
+    description: 'Apporter rigueur, enthousiasme et engagement dans chaque projet réalisé.'
   }
 ];
 
@@ -38,11 +37,11 @@ export function About() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">About Me</h2>
+          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">À propos de moi</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            I'm a mobile developer creating digital solutions 
-            that make a difference. My journey started with curiosity and has evolved into a 
-            passion dedicated to building exceptional app experiences.
+            Je suis Asma Boussaada, étudiante en ingénierie informatique, passionnée par le développement web full stack,
+            les technologies cloud et l’innovation digitale. Je conçois des solutions intelligentes qui allient performance,
+            design et utilité.
           </p>
         </motion.div>
 
@@ -55,8 +54,8 @@ export function About() {
           >
             <img  
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
-              alt="Developer working on code in modern office setup"
-             src="Image/aboutMe.jpg" />
+              alt="Développeuse travaillant sur un projet"
+              src="Image/aboutMe.jpg" />
           </motion.div>
 
           <motion.div
@@ -66,19 +65,17 @@ export function About() {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <h3 className="text-3xl font-bold">My Story</h3>
+            <h3 className="text-3xl font-bold">Mon Parcours</h3>
             <p className="text-muted-foreground">
-              Started my journey as a student in a university of IT, driven by curiosity and a love for 
-              problem-solving. Over the years, I've had the privilege of working with amazing 
-              teams, building everything from scratch to real web and mobile applications.
+              Mon parcours a débuté avec une curiosité pour l’informatique, rapidement transformée en passion. 
+              À travers mes études et projets, j’ai développé des compétences solides en développement web et en déploiement cloud.
             </p>
             <p className="text-muted-foreground">
-              When I'm not coding, you'll find me exploring new technologies, contributing to 
-              open-source projects, or sharing knowledge with the developer community. I believe 
-              in continuous learning and staying ahead of the curve in this ever-evolving field.
+              En dehors du code, j’aime explorer les nouvelles technologies, contribuer à des projets open source et partager mes connaissances.
+              Je crois en l’apprentissage continu et en la création de solutions qui ont un réel impact.
             </p>
             <div className="flex flex-wrap gap-2">
-              {['NestJS', 'Node.js', 'TypeScript', 'Flutter', 'Kotlin', 'Git'].map((tech) => (
+              {['Spring Boot', 'Angular', 'Symfony', 'Docker', 'Kubernetes', 'OpenStack'].map((tech) => (
                 <span key={tech} className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">
                   {tech}
                 </span>

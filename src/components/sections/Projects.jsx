@@ -5,49 +5,79 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ExternalLink, Github } from 'lucide-react';
-
 const projects = [
   {
-    title: 'Signify Academic Project',
-    description: 'Developed Signify, a gamified mobile app that teaches you the hand sign language in a funny and engaging way. It offers innovative, interactive features to help users stay motivated and enjoy the learning process without ever feeling bored.',
-    image: 'Image/signLanguage.jpg',
-    technologies: ['NestJS', 'Jetpack compose', 'SwiftUI', 'Typescript', 'MongoDB'],
-    liveUrl: 'https://github.com/YassineBM4/Signify/tree/master#readme',
-    githubUrl: 'https://github.com/YassineBM4/Signify'
+  title: 'Smart Lost & Found',
+  description:
+    "Plateforme intelligente de gestion d’objets perdus et trouvés, basée sur une architecture microservices (Spring Boot + Angular). Intègre une IA pour la correspondance image/texte, une gestion des réclamations, et un chatbot. Déploiement sur Azure Container Apps avec Eureka, API Gateway, Config Server, MySQL, Prometheus & Grafana.",
+  image: 'Image/smart-lost-found.png',
+  technologies: [
+    'Spring Boot',
+    'Angular',
+    'MySQL',
+    'Docker',
+    'Azure',
+    'Microservices',
+    'Eureka',
+    'Python',
+    'Gemini AI',
+
+    'TensorFlow'
+  ],
+  liveUrl: 'https://www.linkedin.com/posts/asma-boussaada_demo-smart-lost-found-un-projet-activity-7359235162091442177-CCGx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD3RDdMB8MFhymwcy4xqrFha_pEh8kF0PrE', 
+  githubUrl: 'https://github.com/asmabsd/microservices_lostandfound' ,
+
+}
+,
+  {
+    title: 'Smart Tourism Platform (Mallatrip)',
+    description:
+      "Développement d’une plateforme cloud de gestion touristique avec réservation, recommandations et gestion des partenaires. Déploiement sur Microsoft Azure et OpenStack avec Docker, supervision Prometheus & Grafana, et personnalisation par IA.",
+    image: 'Image/mallatrip.png',
+    technologies: ['Spring Boot', 'Angular', 'MySQL', 'Azure', 'OpenStack', 'Docker', 'Prometheus', 'Grafana'],
+    liveUrl: 'https://www.linkedin.com/posts/asma-boussaada_ai-tourismtech-azure-activity-7329491023213019136-8rkJ',
+    githubUrl: 'https://github.com/asmabsd/angular_template/branches'
   },
   {
-    title: 'MSAware Academic Project',
-    description: 'Created MSAware, a cross-platform AI-driven mobile app connected to smartwatch to support individuals with Multiple Sclerosis to predict MS attacks with probabilistic accuracy.',
-    image: 'Image/MSaware.jpg',
-    technologies: ['NestJS', 'Flutter', 'Typescript', 'Python', 'MongoDB', 'Firebase'],
-    liveUrl: 'https://www.linkedin.com/posts/yassine-ben-mabrouk-b7b071220_msaware-multiplesclerosis-ai-activity-7331102589335269376-6xf3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADeJxE8Bg5LK8QxgknAhvn89_Q7f93pK3I4',
+    title: 'Stage Symfony – ScriptZenit (France)',
+    description:
+      "Stage en ligne durant l’été 2024 : Conception et développement d’un CRM métier avec Symfony 5. Modules dynamiques, sécurité, architecture MVC et intégration backend.",
+    image: 'Image/symfony_crm.jpg',
+    technologies: ['Symfony 5', 'PHP', 'MySQL', 'Bootstrap', 'MVC'],
+    liveUrl: '#',
     githubUrl: '#'
   },
   {
-    title: 'Abshore Internship Project',
-    description: 'Built the frontend of a financial verification platform for Abshore, allowing users to check if a check issuer has sufficient funds. Focused on creating a clean, user-friendly interface with secure integration to backend verification services.',
-    image: 'Image/abshore.jpeg',
-    technologies: ['React', 'React Bootstrap'],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/YassineBM4/React-Abshore'
+    title: 'SkillHub – PIDEV',
+    description:
+      "Plateforme de freelancing web développée avec Symfony et application desktop avec JavaFX, toutes deux connectées à une base MySQL partagée. Gestion des missions, paiements, profils, etc.",
+    image: 'Image/skillhub.jpg',
+    technologies: ['Symfony', 'JavaFX', 'MySQL'],
+    liveUrl: 'https://github.com/asmabsd/PIDEV-WEB-MOBILE-DESKTOP/blob/main/README.md',
+    githubUrl: 'https://github.com/asmabsd/PIDEV-WEB-MOBILE-DESKTOP'
   },
   {
-    title: 'Swapcraze Academic Project',
-    description: 'Built 3 bartering applications for web, desktop, and mobile for product and service exchanges.',
-    image: 'Image/bartering.jpg',
-    technologies: ['Java For Desktop', 'Symfony For Web', 'PhpMyAdmin', 'Flutterflow For Mobile App'],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/YassineBM4/Jeagers'
-  },
-  {
-    title: 'Health Mobile App Professional Project',
-    description: 'Designed a health mobile app that helps users locate nearby medical facilities, make reservations, and directly contact doctors.',
-    image: 'Image/DRkhaled.jpg',
-    technologies: ['Figma'],
-    liveUrl: '#',
-    githubUrl: '#'
+    title: 'TheBeautyParlour – Site e-commerce',
+    description:
+      "Site responsive pour la vente de produits de maquillage, conçu en HTML/CSS/JavaScript. Interface simple, intégration panier, hébergé sur GitHub.",
+    image: 'Image/beautyparlour.jpg',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    liveUrl: 'https://github.com/asmabsd/site-vente-makeup-/blob/master/README.md',
+    githubUrl: 'https://github.com/asmabsd/site-vente-makeup-'
   }
+  ,
+  {
+    title: 'PollPro – Application Élections',
+    description:
+      "Application desktop GTK+ développée en langage C sous Linux pour la gestion électronique d’élections. Gestion des électeurs, résultats, affichage graphique et sécurité simple.",
+    image: 'Image/pollpro.jpg',
+    technologies: ['C', 'GTK+', 'Linux'],
+    liveUrl: '#',
+    githubUrl: 'https://github.com/asmabsd/Projet_C'
+  }
+
 ];
+
 
 export function Projects() {
   return (
@@ -62,8 +92,9 @@ export function Projects() {
         >
           <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">Featured Projects</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Here are some of my recent projects that showcase my skills and passion for creating
-            innovative digital solutions.
+        Voici quelques-uns de mes projets récents qui illustrent mes compétences et ma passion pour la création de solutions numériques innovantes.
+
+
           </p>
         </motion.div>
 

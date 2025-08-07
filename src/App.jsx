@@ -21,7 +21,7 @@ function App() {
         <Hero />
         <About />
         <Projects />
-        <Activities />
+       
         <Certifications />
         <Skills />
         <Contact />
@@ -30,7 +30,7 @@ function App() {
       <footer className="bg-muted/50 py-8 border-t">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
-            © 2025 Yassine Ben Mabrouk Developer. Built with React
+            © 2025 asma boussaada Developer. Built with React
           </p>
         </div>
       </footer>

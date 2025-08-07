@@ -1,27 +1,23 @@
-
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
-import { useToast } from '@/components/ui/use-toast';
+import { Mail, Phone, MapPin, Github, Linkedin } from 'lucide-react';
 
 const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'benmabroukyassine399@gmail.com',
-    href: 'mailto:benmabroukyassine399@gmail.com'
+    value: 'asma.boussaada@esprit.tn',
+    href: 'mailto:asma.boussaada@esprit.tn',
   },
   {
     icon: Phone,
-    label: 'Phone',
-    value: '+216 22 312 044',
+    label: 'Téléphone',
+    value: '+216 53 77 ** **',
   },
   {
     icon: MapPin,
-    label: 'Location',
-    value: 'Tunis, Tunisia',
+    label: 'Localisation',
+    value: 'Tunis, Tunisie',
   }
 ];
 
@@ -29,13 +25,13 @@ const socialLinks = [
   {
     icon: Github,
     label: 'GitHub',
-    href: 'https://github.com/YassineBM4',
+    href: 'https://github.com/asmabsd',
     color: 'hover:text-gray-900 dark:hover:text-gray-100'
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/yassine-ben-mabrouk-b7b071220/',
+    href: 'https://www.linkedin.com/in/asma-boussaada/',
     color: 'hover:text-blue-600'
   }
 ];
@@ -51,14 +47,13 @@ export function Contact() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">Get In Touch</h2>
+          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">Me Contacter</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            I'm always open to discussing new opportunities, interesting projects, 
-            or just having a chat about technology. Let's connect!
+            Je suis toujours ouverte à de nouvelles opportunités, des projets intéressants ou simplement à échanger autour de la tech. N'hésitez pas à me contacter !
           </p>
         </motion.div>
 
-        {/* Contact Info in a row */}
+        {/* Informations de contact */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -91,9 +86,9 @@ export function Contact() {
             })}
           </div>
 
-          {/* Follow Me Section */}
+          {/* Suivez-moi */}
           <div className="pt-8 text-center">
-            <h4 className="text-lg font-semibold mb-4">Follow Me</h4>
+            <h4 className="text-lg font-semibold mb-4">Suivez-moi</h4>
             <div className="flex justify-center space-x-4">
               {socialLinks.map((social, index) => {
                 const Icon = social.icon;

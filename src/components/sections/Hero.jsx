@@ -37,7 +37,7 @@ export function Hero() {
             <img
               className="w-full h-full rounded-full object-cover border-4 border-primary shadow-2xl"
               alt="Photo"
-              src="Image/YassineBM.jpg" />
+              src="Image/asmabsd.jpg" />
           </motion.div>
 
           <motion.h1
@@ -46,7 +46,7 @@ export function Hero() {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-5xl md:text-7xl font-bold gradient-text mb-4"
           >
-            Yassine Ben Mabrouk
+            asma boussaada
           </motion.h1>
 
           <motion.p
@@ -55,7 +55,8 @@ export function Hero() {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="text-xl md:text-2xl text-muted-foreground mb-6"
           >
-            Software Engineering Student
+            Étudiante en Ingénieurie Informatique 
+
           </motion.p>
 
           <motion.p
@@ -64,9 +65,7 @@ export function Hero() {
             transition={{ delay: 0.8, duration: 0.6 }}
             className="text-lg max-w-2xl mx-auto text-muted-foreground mb-8"
           >
-            Passionate mobile engineering student from Tunisia.
-            I’m eager to expand my knowledge and explore how emerging technologies such as Artificial Intelligence can be
-            integrated into mobile development to create innovative solutions that enhance and simplify everyday life.
+Je suis Asma Boussaada, étudiante en deuxième année d’ingénierie à ESPRIT, passionnée par le développement web full stack et les technologies cloud. Mes projets et mon stage m’ont permis d’acquérir des compétences en Spring Boot, Angular, Symfony, ainsi qu’en déploiement avec Docker, Kubernetes et OpenStack. Je souhaite continuer à intégrer des technologies innovantes, exploitant l’intelligence artificielle, pour créer des applications performantes et utiles.
           </motion.p>
 
           <motion.div
@@ -75,7 +74,7 @@ export function Hero() {
             transition={{ delay: 1, duration: 0.6 }}
             className="flex flex-wrap justify-center gap-4 mb-8"
           >
-            <a href="Resume/YassineBenMabrouk_CV.pdf" download>
+            <a href="Resume/asmaboussaada_cv.pdf" download>
               <Button size="lg" className="gradient-bg hover:opacity-90 transition-opacity">
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
@@ -89,12 +88,12 @@ export function Hero() {
             transition={{ delay: 1.2, duration: 0.6 }}
             className="flex justify-center space-x-6"
           >
-            <a href="https://github.com/YassineBM4">
+            <a href="https://github.com/asmabsd">
             <Button variant="ghost" size="icon" className="hover:bg-primary/20">
               <Github className="h-6 w-6" />
             </Button>
             </a>
-            <a href="https://www.linkedin.com/in/yassine-ben-mabrouk-b7b071220/">
+            <a href="https://linkedin.com/in/asma-boussaada">
             <Button variant="ghost" size="icon" className="hover:bg-primary/20">
               <Linkedin className="h-6 w-6" />
             </Button>

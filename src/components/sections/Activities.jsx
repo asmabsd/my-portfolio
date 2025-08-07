@@ -6,36 +6,7 @@ import { Users, Trophy, Heart, Lightbulb } from 'lucide-react';
 
 const activities = [
   {
-    icon: Trophy,
-    title: 'Tech Community Leader',
-    organization: '1st place SIM vs SLIM Hackathon',
-    period: '2024',
-    description: 'We won 1st place with a mobile app that gives plants a voice using AI and sensors. The plant could express if it’s too hot, thirsty, or lacking oxygen. It created a unique, interactive care experience through real-time data and natural-language messages.',
-    image: 'Image/hackathon.jpg'
-  },
-  {
-    icon: Trophy,
-    title: 'Hackathon Winner',
-    organization: '3rd place Cement Mob Challenge Hackacthon',
-    period: '2024',
-    description: 'We won 3rd place by building a mobile app for a cement company to monitor the national market. It tracked competitors and collected product data across the country. An interactive map gave the sales team real-time insights and a strategic edge.',
-    image: 'Image/cement.jpeg'
-  },
-  {
-    icon: Lightbulb,
-    title: 'Training',
-    organization: 'Blockchain training',
-    period: '2024',
-    description: 'This training explored blockchain fundamentals—NFTs, cryptocurrencies, and wallets. We did a live demo by creating and funding a crypto wallet. It offered hands-on insight into how blockchain transactions work.',
-    image: 'Image/hedera.jpg'
-  },
-  {
-    icon: Lightbulb,
-    title: 'Training',
-    organization: 'Innovation management training',
-    period: '2025',
-    description: 'This training focused on fostering innovation through structured strategies. We learned how to turn ideas into impactful projects and manage innovation processes effectively.',
-    image: 'Image/innovation.jpg'
+    
   }
 ];
 

@@ -1,13 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Home, User, Briefcase, Award, Code, Mail, Activity } from 'lucide-react';
+import { Home, User, Briefcase, Award, Code, Mail } from 'lucide-react';
 
 const navItems = [
   { id: 'hero', label: 'Home', icon: Home },
   { id: 'about', label: 'About', icon: User },
   { id: 'projects', label: 'Projects', icon: Briefcase },
-  { id: 'activities', label: 'Activities', icon: Activity },
   { id: 'certifications', label: 'Certifications', icon: Award },
   { id: 'skills', label: 'Skills', icon: Code },
   { id: 'contact', label: 'Contact', icon: Mail },

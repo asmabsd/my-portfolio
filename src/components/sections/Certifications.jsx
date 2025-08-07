@@ -7,27 +7,22 @@ import { Button } from '@/components/ui/button';
 import { ExternalLink, Award } from 'lucide-react';
 
 const certifications = [
+ 
+  // autres certifications...
   {
-    title: 'Data Science Orientation Certificate',
-    issuer: 'IBM from Coursera',
-    date: '2024',
-    image: 'AWS certification badge with cloud architecture diagram',
-    verifyUrl: 'https://www.credly.com/badges/effc3902-5aa6-4fd9-842f-0576e75882d0/linked_in_profile'
-  },
-  {
-    title: ' " What is Data Science ? " Certificate',
-    issuer: 'IBM from Coursera',
-    date: '2024',
-    image: 'Google Cloud certification with developer tools',
-    verifyUrl: 'https://www.coursera.org/account/accomplishments/verify/97UGP3PYTLFA'
-  },
-  {
-    title: 'Introduction to Java Certificate',
-    issuer: 'LearnQuest from Coursera',
-    date: '2024',
-    image: 'Kubernetes certification with container orchestration',
-    verifyUrl: 'https://www.coursera.org/account/accomplishments/verify/9LEZAJLTM24H'
+    title: 'CCNA : Commutation, Routage et Essentiels des Réseaux Sans Fil',
+    issuer: 'Cisco',
+    date: '11 septembre 2024',
+    image: 'ccna.jpg',
+    verifyUrl: 'https://www.credly.com/badges/e93c1ad8-b745-409a-a800-c80c1e817eb7',
+    description: `Ce badge a été délivré à Asma Boussaada. Cisco atteste que le titulaire de ce badge a réussi le cours 
+    "Switching, Routing, and Wireless Essentials" et a obtenu cette certification de niveau étudiant. 
+    La personne certifiée possède des bases solides en opérations de commutation, en configuration de LAN filaires 
+    et sans fil selon les bonnes pratiques de sécurité, et en protocoles de redondance. Elle a développé des compétences 
+    en résolution de problèmes, participé à environ 45 activités pratiques, et cumulé jusqu’à 21 heures de laboratoires 
+    sur matériel Cisco et/ou avec l’outil Cisco Packet Tracer.`
   }
+
 ];
 
 export function Certifications() {
