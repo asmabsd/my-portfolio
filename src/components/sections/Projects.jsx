@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ExternalLink, Github } from 'lucide-react';
+import skillhubImg from '../public/Image/skillhub.jpg';
 const projects = [
   {
   title: 'Smart Lost & Found',
@@ -51,7 +52,7 @@ const projects = [
     title: 'SkillHub – PIDEV',
     description:
       "Plateforme de freelancing web développée avec Symfony et application desktop avec JavaFX, toutes deux connectées à une base MySQL partagée. Gestion des missions, paiements, profils, etc.",
-    image: '/Image/skillhub.jpg',
+    image: skillhubImg , 
     technologies: ['Symfony', 'JavaFX', 'MySQL'],
     liveUrl: 'https://github.com/asmabsd/PIDEV-WEB-MOBILE-DESKTOP/blob/main/README.md',
     githubUrl: 'https://github.com/asmabsd/PIDEV-WEB-MOBILE-DESKTOP'
