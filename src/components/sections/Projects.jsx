@@ -10,7 +10,7 @@ const projects = [
   title: 'Smart Lost & Found',
   description:
     "Plateforme intelligente de gestion d’objets perdus et trouvés, basée sur une architecture microservices (Spring Boot + Angular). Intègre une IA pour la correspondance image/texte, une gestion des réclamations, et un chatbot. Déploiement sur Azure Container Apps avec Eureka, API Gateway, Config Server, MySQL, Prometheus & Grafana.",
-  image: 'Image/smart-lost-found.png',
+  image: '/Image/smart-lost-found.png',
   technologies: [
     'Spring Boot',
     'Angular',
