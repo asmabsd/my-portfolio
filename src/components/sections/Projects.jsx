@@ -51,7 +51,7 @@ const projects = [
     title: 'SkillHub – PIDEV',
     description:
       "Plateforme de freelancing web développée avec Symfony et application desktop avec JavaFX, toutes deux connectées à une base MySQL partagée. Gestion des missions, paiements, profils, etc.",
-    image: 'Image/skillhub.jpg',
+    image: '/Image/skillhub.jpg',
     technologies: ['Symfony', 'JavaFX', 'MySQL'],
     liveUrl: 'https://github.com/asmabsd/PIDEV-WEB-MOBILE-DESKTOP/blob/main/README.md',
     githubUrl: 'https://github.com/asmabsd/PIDEV-WEB-MOBILE-DESKTOP'
