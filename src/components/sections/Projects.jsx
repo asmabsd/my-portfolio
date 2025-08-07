@@ -33,7 +33,7 @@ const projects = [
     title: 'Smart Tourism Platform (Mallatrip)',
     description:
       "Développement d’une plateforme cloud de gestion touristique avec réservation, recommandations et gestion des partenaires. Déploiement sur Microsoft Azure et OpenStack avec Docker, supervision Prometheus & Grafana, et personnalisation par IA.",
-    image: 'Image/mallatrip.png',
+    image: '/Image/mallatrip.png',
     technologies: ['Spring Boot', 'Angular', 'MySQL', 'Azure', 'OpenStack', 'Docker', 'Prometheus', 'Grafana'],
     liveUrl: 'https://www.linkedin.com/posts/asma-boussaada_ai-tourismtech-azure-activity-7329491023213019136-8rkJ',
     githubUrl: 'https://github.com/asmabsd/angular_template/branches'
@@ -42,7 +42,7 @@ const projects = [
     title: 'Stage Symfony – ScriptZenit (France)',
     description:
       "Stage en ligne durant l’été 2024 : Conception et développement d’un CRM métier avec Symfony 5. Modules dynamiques, sécurité, architecture MVC et intégration backend.",
-    image: 'Image/symfony_crm.jpg',
+    image: '/Image/symfony_crm.jpg',
     technologies: ['Symfony 5', 'PHP', 'MySQL', 'Bootstrap', 'MVC'],
     liveUrl: '#',
     githubUrl: '#'
@@ -60,7 +60,7 @@ const projects = [
     title: 'TheBeautyParlour – Site e-commerce',
     description:
       "Site responsive pour la vente de produits de maquillage, conçu en HTML/CSS/JavaScript. Interface simple, intégration panier, hébergé sur GitHub.",
-    image: 'Image/beautyparlour.jpg',
+    image: '/Image/beautyparlour.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveUrl: 'https://github.com/asmabsd/site-vente-makeup-/blob/master/README.md',
     githubUrl: 'https://github.com/asmabsd/site-vente-makeup-'
@@ -70,7 +70,7 @@ const projects = [
     title: 'PollPro – Application Élections',
     description:
       "Application desktop GTK+ développée en langage C sous Linux pour la gestion électronique d’élections. Gestion des électeurs, résultats, affichage graphique et sécurité simple.",
-    image: 'Image/pollpro.jpg',
+    image: '/Image/pollpro.jpg',
     technologies: ['C', 'GTK+', 'Linux'],
     liveUrl: '#',
     githubUrl: 'https://github.com/asmabsd/Projet_C'
