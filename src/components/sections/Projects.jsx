@@ -11,7 +11,7 @@ const projects = [
   title: 'Smart Lost & Found',
   description:
     "Plateforme intelligente de gestion d’objets perdus et trouvés, basée sur une architecture microservices (Spring Boot + Angular). Intègre une IA pour la correspondance image/texte, une gestion des réclamations, et un chatbot. Déploiement sur Azure Container Apps avec Eureka, API Gateway, Config Server, MySQL, Prometheus & Grafana.",
-  image: '/Image/smart-lost-found.png',
+  image: "Image/smart-lost-found.png",
   technologies: [
     'Spring Boot',
     'Angular',
@@ -34,7 +34,7 @@ const projects = [
     title: 'Smart Tourism Platform (Mallatrip)',
     description:
       "Développement d’une plateforme cloud de gestion touristique avec réservation, recommandations et gestion des partenaires. Déploiement sur Microsoft Azure et OpenStack avec Docker, supervision Prometheus & Grafana, et personnalisation par IA.",
-    image: '/Image/mallatrip.png',
+    image: "Image/mallatrip.png",
     technologies: ['Spring Boot', 'Angular', 'MySQL', 'Azure', 'OpenStack', 'Docker', 'Prometheus', 'Grafana'],
     liveUrl: 'https://www.linkedin.com/posts/asma-boussaada_ai-tourismtech-azure-activity-7329491023213019136-8rkJ',
     githubUrl: 'https://github.com/asmabsd/angular_template/branches'
@@ -52,7 +52,7 @@ const projects = [
     title: 'SkillHub – PIDEV',
     description:
       "Plateforme de freelancing web développée avec Symfony et application desktop avec JavaFX, toutes deux connectées à une base MySQL partagée. Gestion des missions, paiements, profils, etc.",
-    image: skillhubImg , 
+    image: "Image/skillhub.jpg", 
     technologies: ['Symfony', 'JavaFX', 'MySQL'],
     liveUrl: 'https://github.com/asmabsd/PIDEV-WEB-MOBILE-DESKTOP/blob/main/README.md',
     githubUrl: 'https://github.com/asmabsd/PIDEV-WEB-MOBILE-DESKTOP'
@@ -61,7 +61,7 @@ const projects = [
     title: 'TheBeautyParlour – Site e-commerce',
     description:
       "Site responsive pour la vente de produits de maquillage, conçu en HTML/CSS/JavaScript. Interface simple, intégration panier, hébergé sur GitHub.",
-    image: '/Image/beautyparlour.jpg',
+    image: "Image/beautyparlour.jpg",
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveUrl: 'https://github.com/asmabsd/site-vente-makeup-/blob/master/README.md',
     githubUrl: 'https://github.com/asmabsd/site-vente-makeup-'
@@ -71,7 +71,7 @@ const projects = [
     title: 'PollPro – Application Élections',
     description:
       "Application desktop GTK+ développée en langage C sous Linux pour la gestion électronique d’élections. Gestion des électeurs, résultats, affichage graphique et sécurité simple.",
-    image: '/Image/pollpro.jpg',
+    image: "Image/pollpro.jpg",
     technologies: ['C', 'GTK+', 'Linux'],
     liveUrl: '#',
     githubUrl: 'https://github.com/asmabsd/Projet_C'
