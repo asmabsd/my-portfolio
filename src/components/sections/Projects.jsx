@@ -60,7 +60,7 @@ const projects = [
     title: 'TheBeautyParlour – Site e-commerce',
     description:
       "Site responsive pour la vente de produits de maquillage, conçu en HTML/CSS/JavaScript. Interface simple, intégration panier, hébergé sur GitHub.",
-    image: "/Image/beautyparlour.jpg",
+    image: "/Image/hhh1.jpg",
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveUrl: 'https://github.com/asmabsd/site-vente-makeup-/blob/master/README.md',
     githubUrl: 'https://github.com/asmabsd/site-vente-makeup-'
