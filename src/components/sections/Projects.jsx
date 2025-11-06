@@ -6,6 +6,30 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ExternalLink, Github } from 'lucide-react';
 const projects = [
+  
+{
+  title: 'Immuncare',
+  description:
+    "Plateforme MERN (MongoDB, Express, React, Node.js) dédiée aux maladies auto-immunes telles que le lupus, le sida et la sclérose en plaques. Elle facilite l’interaction entre patients, médecins et chercheurs grâce à des fonctionnalités avancées de suivi, d’analyse médicale et de gestion des consultations. Le projet inclut un pipeline CI/CD complet (Jenkins, Docker, Kubernetes) et un monitoring via Prometheus & Grafana.",
+  image: "/Image/immuncare.png",
+  technologies: [
+    'MongoDB',
+    'Express',
+    'React',
+    'Node.js',
+    'Docker',
+    'Kubernetes',
+    'Jenkins',
+    'SonarQube',
+    'Prometheus',
+    'Grafana',
+    'Stripe',
+    'Nginx',
+    'CentOS'
+  ],
+    liveUrl: 'https://www.linkedin.com/posts/asma-boussaada_pr%C3%A9sentation-de-mon-projet-mern-stack-activity-7391977444766892033-ZFEL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD3RDdMB8MFhymwcy4xqrFha_pEh8kF0PrE',
+  githubUrl: 'https://github.com/asmabsd/immuncare',
+},
   {
   title: 'Smart Lost & Found',
   description:
