@@ -7,6 +7,29 @@ import { Button } from '@/components/ui/button';
 import { ExternalLink, Award } from 'lucide-react';
 
 const certifications = [
+ {
+  title: 'AWS Academy Graduate – Cloud Operations',
+  issuer: 'Amazon Web Services (AWS)',
+  date: 'octobre 2025',
+  image: 'aws.png',
+  verifyUrl: 'https://www.credly.com/badges/e23da73a-b1b6-4345-aa6c-a2e1666d34fc/',
+  description: `Asma Boussaada a complété avec succès le programme "AWS Academy Graduate – Cloud Operations" d’une durée de 40 heures. 
+  Ce programme a permis d’acquérir une expérience pratique approfondie sur les services AWS, la gestion et l’optimisation des infrastructures cloud, 
+  ainsi que les concepts d’automatisation, de surveillance et de déploiement. 
+  Ce jalon marque une avancée importante vers la maîtrise du Cloud Computing et des pratiques DevOps modernes. 
+  #AWS #CloudOperations #DevOps #Automation #Monitoring #CloudComputing`
+}
+
+ {
+  title: 'Attendance Hashgraph Developer',
+  issuer: 'The Hashgraph Association',
+  date: 'octobre 2025',
+  image: 'blockchain.png',
+  verifyUrl: 'https://thehashgraphassociation.com/verify/caedf1ec-e958-4c45-854b-23961d784319',
+  description: `Cette certification atteste la participation d’Asma Boussaada au programme "Hashgraph Developer" organisé par The Hashgraph Association. 
+  Le programme couvre les fondamentaux du développement d’applications décentralisées (dApps) sur le réseau Hedera Hashgraph, 
+  incluant la création de smart contracts, la gestion des tokens HTS (Hedera Token Service) et l’intégration via le SDK JavaScript et Java.`
+},
  
   // autres certifications...
   {
