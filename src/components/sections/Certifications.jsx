@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -7,31 +6,30 @@ import { Button } from '@/components/ui/button';
 import { ExternalLink, Award } from 'lucide-react';
 
 const certifications = [
- {
-  title: 'AWS Academy Graduate – Cloud Operations',
-  issuer: 'Amazon Web Services (AWS)',
-  date: 'octobre 2025',
-  image: 'aws.png',
-  verifyUrl: 'https://www.credly.com/badges/e23da73a-b1b6-4345-aa6c-a2e1666d34fc/',
-  description: `Asma Boussaada a complété avec succès le programme "AWS Academy Graduate – Cloud Operations" d’une durée de 40 heures. 
-  Ce programme a permis d’acquérir une expérience pratique approfondie sur les services AWS, la gestion et l’optimisation des infrastructures cloud, 
-  ainsi que les concepts d’automatisation, de surveillance et de déploiement. 
-  Ce jalon marque une avancée importante vers la maîtrise du Cloud Computing et des pratiques DevOps modernes. 
-  #AWS #CloudOperations #DevOps #Automation #Monitoring #CloudComputing`
-},
+  {
+    title: 'AWS Academy Graduate – Cloud Operations',
+    issuer: 'Amazon Web Services (AWS)',
+    date: 'octobre 2025',
+    image: 'aws.png',
+    verifyUrl: 'https://www.credly.com/badges/e23da73a-b1b6-4345-aa6c-a2e1666d34fc/',
+    description: `Asma Boussaada a complété avec succès le programme "AWS Academy Graduate – Cloud Operations" d’une durée de 40 heures. 
+    Ce programme a permis d’acquérir une expérience pratique approfondie sur les services AWS, la gestion et l’optimisation des infrastructures cloud, 
+    ainsi que les concepts d’automatisation, de surveillance et de déploiement. 
+    Ce jalon marque une avancée importante vers la maîtrise du Cloud Computing et des pratiques DevOps modernes. 
+    #AWS #CloudOperations #DevOps #Automation #Monitoring #CloudComputing`
+  },
 
- {
-  title: 'Attendance Hashgraph Developer',
-  issuer: 'The Hashgraph Association',
-  date: 'octobre 2025',
-  image: 'blockchain.png',
-  verifyUrl: 'https://thehashgraphassociation.com/verify/caedf1ec-e958-4c45-854b-23961d784319',
-  description: `Cette certification atteste la participation d’Asma Boussaada au programme "Hashgraph Developer" organisé par The Hashgraph Association. 
-  Le programme couvre les fondamentaux du développement d’applications décentralisées (dApps) sur le réseau Hedera Hashgraph, 
-  incluant la création de smart contracts, la gestion des tokens HTS (Hedera Token Service) et l’intégration via le SDK JavaScript et Java.`
-},
- 
-  // autres certifications...
+  {
+    title: 'Attendance Hashgraph Developer',
+    issuer: 'The Hashgraph Association',
+    date: 'octobre 2025',
+    image: 'blockchain.png',
+    verifyUrl: 'https://thehashgraphassociation.com/verify/caedf1ec-e958-4c45-854b-23961d784319',
+    description: `Cette certification atteste la participation d’Asma Boussaada au programme "Hashgraph Developer" organisé par The Hashgraph Association. 
+    Le programme couvre les fondamentaux du développement d’applications décentralisées (dApps) sur le réseau Hedera Hashgraph, 
+    incluant la création de smart contracts, la gestion des tokens HTS (Hedera Token Service) et l’intégration via le SDK JavaScript et Java.`
+  },
+
   {
     title: 'CCNA : Commutation, Routage et Essentiels des Réseaux Sans Fil',
     issuer: 'Cisco',
@@ -45,13 +43,13 @@ const certifications = [
     en résolution de problèmes, participé à environ 45 activités pratiques, et cumulé jusqu’à 21 heures de laboratoires 
     sur matériel Cisco et/ou avec l’outil Cisco Packet Tracer.`
   }
-
 ];
 
 export function Certifications() {
   return (
     <section id="certifications" className="py-20">
       <div className="container mx-auto px-4">
+        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -59,13 +57,16 @@ export function Certifications() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">Certifications</h2>
+          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">
+            Certifications
+          </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Continuous learning is key to staying current in technology. Here are my professional 
             certifications that validate my expertise across various platforms and technologies.
           </p>
         </motion.div>
 
+        {/* Certifications Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {certifications.map((cert, index) => (
             <motion.div
@@ -76,44 +77,46 @@ export function Certifications() {
               viewport={{ once: true }}
             >
               <Card className="h-full hover:shadow-xl transition-all duration-300 glass-effect border-primary/20 group">
+                {/* Image */}
                 <div className="relative overflow-hidden rounded-t-lg">
-                  <img  
+                  <img
                     className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
-                    alt={cert.image}
-                   src="https://images.unsplash.com/photo-1702306257239-52fac9e29b79" />
+                    alt={cert.title}
+                    src={cert.image.startsWith('http') ? cert.image : `/images/${cert.image}`}
+                    onError={(e) => {
+                      e.target.src = 'https://images.unsplash.com/photo-1702306257239-52fac9e29b79';
+                    }}
+                  />
                   <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="absolute top-4 right-4 w-10 h-10 bg-primary/90 rounded-full flex items-center justify-center">
                     <Award className="h-5 w-5 text-white" />
                   </div>
                 </div>
-                
+
+                {/* Card Content */}
                 <CardHeader className="pb-3">
                   <CardTitle className="text-lg leading-tight">{cert.title}</CardTitle>
                   <div className="space-y-1">
                     <p className="text-sm font-medium text-primary">{cert.issuer}</p>
-                    <div className="flex justify-between items-center">
-                      <Badge variant="secondary" className="bg-primary/10 text-primary">
-                        {cert.date}
-                      </Badge>
-                    </div>
+                    <Badge variant="secondary" className="bg-primary/10 text-primary">
+                      {cert.date}
+                    </Badge>
                   </div>
                 </CardHeader>
-                
+
                 <CardContent className="space-y-4">
                   <p className="text-sm text-muted-foreground">{cert.description}</p>
-                  
-                  <div className="space-y-2">
-                    <a href={cert.verifyUrl} target="_blank" rel="noopener noreferrer">
-                    <Button 
-                      variant="outline" 
-                      size="sm" 
+
+                  <a href={cert.verifyUrl} target="_blank" rel="noopener noreferrer">
+                    <Button
+                      variant="outline"
+                      size="sm"
                       className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                     >
                       <ExternalLink className="mr-2 h-4 w-4" />
                       Verify Certificate
                     </Button>
-                    </a>
-                  </div>
+                  </a>
                 </CardContent>
               </Card>
             </motion.div>
