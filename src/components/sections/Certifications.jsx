@@ -18,7 +18,7 @@ const certifications = [
   ainsi que les concepts d’automatisation, de surveillance et de déploiement. 
   Ce jalon marque une avancée importante vers la maîtrise du Cloud Computing et des pratiques DevOps modernes. 
   #AWS #CloudOperations #DevOps #Automation #Monitoring #CloudComputing`
-}
+},
 
  {
   title: 'Attendance Hashgraph Developer',
